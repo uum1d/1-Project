@@ -1,0 +1,1676 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+}
+.container .Login_page {
+  width: 100%;
+  height: 100vh;
+  display: block;
+}
+.container .Login_page header {
+  width: 100%;
+  background-color: #0E634C;
+}
+.container .Login_page header .box {
+  width: 100%;
+}
+.container .Login_page header .box .box-1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 180px;
+  padding: 5px;
+}
+.container .Login_page header .box .box-1 img {
+  width: 200px;
+  height: 70px;
+}
+.container .Login_page header .box .box-1 .ul-1 {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: #01785F;
+  padding: 15px 25px;
+  border-radius: 40px;
+}
+.container .Login_page header .box .box-1 .ul-1 li {
+  font-size: 15px;
+  color: #68BCAF;
+}
+.container .Login_page header .box .box-1 .ul-1 li:hover {
+  cursor: pointer;
+  color: white;
+}
+.container .Login_page header .box .box-1 .ul-2_2 {
+  width: 100%;
+  position: absolute;
+  display: none;
+  justify-content: right;
+  margin-top: 40px;
+}
+.container .Login_page header .box .box-1 .ul-2_2 .ul-2 {
+  position: absolute;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #01785F;
+  padding: 15px 25px;
+}
+.container .Login_page header .box .box-1 .ul-2_2 .ul-2 li {
+  font-size: 15px;
+  color: #68BCAF;
+}
+.container .Login_page header .box .box-1 .ul-2_2 .ul-2 li:hover {
+  cursor: pointer;
+  color: white;
+}
+.container .Login_page header .box .box-1 i {
+  display: none;
+  font-size: 30px;
+}
+.container .Login_page header .box .box-1 i:hover {
+  cursor: pointer;
+}
+.container .Login_page .account {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #F8F9FA;
+  padding: 15px;
+}
+.container .Login_page .account .box-group {
+  width: 1040px;
+}
+.container .Login_page .account .box-group .tittle {
+  margin-bottom: 15px;
+}
+.container .Login_page .account .box-group .tittle h2 {
+  font-size: 25px;
+  margin-bottom: 15px;
+  color: #0E1235;
+  letter-spacing: 1.5px;
+}
+.container .Login_page .account .box-group .box {
+  width: 100%;
+  background-color: white;
+  border: 1px solid #D6D6D6;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 13px;
+}
+.container .Login_page .account .box-group .box h2 {
+  font-size: 20px;
+  color: #0E1235;
+  letter-spacing: 1.5px;
+}
+.container .Login_page .account .box-group .box .p-1 {
+  display: none;
+  width: 100%;
+  padding: 20px 0px;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  background-color: #C0E2D7;
+  color: #904124;
+}
+.container .Login_page .account .box-group .box .p-2 {
+  display: none;
+  width: 100%;
+  padding: 20px 0px;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  background-color: #C0E2D7;
+  color: #904124;
+}
+.container .Login_page .account .box-group .box .input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.container .Login_page .account .box-group .box .input input {
+  width: 300px;
+  color: #49508D;
+  font-size: 15px;
+  padding: 5px 10px;
+  border: 1px solid #D6D6D6;
+  border-radius: 5px;
+  outline: none;
+}
+.container .Login_page .account .box-group .box .input input:active {
+  box-shadow: 0px 0px 3px 3px rgb(0, 183, 255);
+}
+.container .Login_page .account .box-group .box p {
+  width: 270px;
+  font-size: 10px;
+  text-align: center;
+}
+.container .Login_page .account .box-group .box button {
+  font-size: 15px;
+  padding: 5px 10px;
+  border: none;
+  background-color: #01785F;
+  color: white;
+  border-radius: 5px;
+}
+.container .Login_page .account .box-group .box button:hover {
+  cursor: pointer;
+}
+.container .Login_page .account .box-group .box button:active {
+  background-color: green;
+  box-shadow: 0px 0px 5px 5px green;
+}
+.container .Login_page .account .box-group .footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px;
+  gap: 10px;
+}
+.container .Login_page .account .box-group .footer p {
+  font-size: 15px;
+}
+.container .Login_page .account .box-group .footer a img {
+  width: 70px;
+  height: 35px;
+  border-radius: 5px;
+}
+.container .Login_page .go_out {
+  width: 100%;
+  display: none;
+  justify-content: center;
+  background-color: #F8F9FA;
+  padding: 15px;
+}
+.container .Login_page .go_out .box-group {
+  width: 1040px;
+}
+.container .Login_page .go_out .box-group .tittle {
+  margin-bottom: 15px;
+}
+.container .Login_page .go_out .box-group .tittle h2 {
+  font-size: 25px;
+  margin-bottom: 15px;
+  color: #0E1235;
+  letter-spacing: 1.5px;
+}
+.container .Login_page .go_out .box-group .box {
+  width: 100%;
+  background-color: white;
+  border: 1px solid #D6D6D6;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 13px;
+}
+.container .Login_page .go_out .box-group .box h2 {
+  font-size: 20px;
+  color: #0E1235;
+  letter-spacing: 1.5px;
+}
+.container .Login_page .go_out .box-group .box .p-3 {
+  display: none;
+  width: 100%;
+  padding: 20px 0px;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  background-color: #C0E2D7;
+  color: #904124;
+  text-align: center;
+}
+.container .Login_page .go_out .box-group .box .p-4 {
+  display: none;
+  width: 100%;
+  padding: 20px 0px;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  background-color: #C0E2D7;
+  color: #904124;
+  text-align: center;
+}
+.container .Login_page .go_out .box-group .box .p-5 {
+  display: none;
+  width: 100%;
+  padding: 20px 0px;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  background-color: #C0E2D7;
+  color: #904124;
+  text-align: center;
+}
+.container .Login_page .go_out .box-group .box .input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.container .Login_page .go_out .box-group .box .input input {
+  width: 300px;
+  color: #49508D;
+  font-size: 15px;
+  padding: 5px 10px;
+  border: 1px solid #D6D6D6;
+  border-radius: 5px;
+  outline: none;
+}
+.container .Login_page .go_out .box-group .box .input input:active {
+  box-shadow: 0px 0px 3px 3px rgb(0, 183, 255);
+}
+.container .Login_page .go_out .box-group .box button {
+  font-size: 15px;
+  padding: 10px 10px;
+  border: none;
+  background-color: #01785F;
+  color: white;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.container .Login_page .go_out .box-group .box button:hover {
+  cursor: pointer;
+}
+.container .Login_page .go_out .box-group .box button:active {
+  background-color: green;
+  box-shadow: 0px 0px 5px 5px green;
+}
+.container .Login_page .go_out .box-group .box .link {
+  display: flex;
+  gap: 20px;
+  font-size: 15px;
+  margin-top: 20px;
+}
+.container .Login_page .go_out .box-group .box .link a {
+  color: #3187FF;
+  text-decoration: none;
+}
+.container .Login_page .go_out .box-group .box .link a:hover {
+  color: #033172;
+}
+.container .Login_page .go_out .box-group .box .link a:active {
+  color: #70acff;
+}
+.container .Login_page .go_out .box-group .footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px;
+  gap: 10px;
+}
+.container .Login_page .go_out .box-group .footer p {
+  font-size: 15px;
+}
+.container .Login_page .go_out .box-group .footer a img {
+  width: 70px;
+  height: 35px;
+  border-radius: 5px;
+}
+.container .Login_page .about_us {
+  width: 100%;
+  display: none;
+  justify-content: center;
+  padding: 20px;
+  background-color: #F8F9FA;
+}
+.container .Login_page .about_us .box-group {
+  width: 1040px;
+}
+.container .Login_page .about_us .box-group .tittle {
+  margin-bottom: 15px;
+}
+.container .Login_page .about_us .box-group .tittle h2 {
+  font-size: 25px;
+  margin-bottom: 15px;
+  color: #0E1235;
+  letter-spacing: 1.5px;
+}
+.container .Login_page .about_us .box-group .box {
+  border: 1px solid #D6D6D6;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: white;
+}
+.container .Login_page .about_us .box-group .box .box-1 {
+  border: 1px solid #D6D6D6;
+  padding: 50px 20px;
+  border-radius: 5px;
+  background-color: #F8F9FA;
+}
+.container .Login_page .about_us .box-group .box .box-1 p {
+  font-size: 13px;
+  margin-bottom: 20px;
+  line-height: 20px;
+}
+.container .Login_page .about_us .box-group .box .box-1 ul {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 13px;
+}
+.container .Login_page .about_us .box-group .footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px;
+  gap: 10px;
+}
+.container .Login_page .about_us .box-group .footer p {
+  font-size: 15px;
+}
+.container .Login_page .about_us .box-group .footer a img {
+  width: 70px;
+  height: 35px;
+  border-radius: 5px;
+}
+.container .Login_page .FAQ {
+  width: 100%;
+  display: none;
+  justify-content: center;
+  padding: 20px;
+  background-color: #F8F9FA;
+}
+.container .Login_page .FAQ .box-group {
+  width: 1040px;
+}
+.container .Login_page .FAQ .box-group .tittle {
+  margin-bottom: 15px;
+}
+.container .Login_page .FAQ .box-group .tittle h2 {
+  font-size: 25px;
+  margin-bottom: 15px;
+  color: #0E1235;
+  letter-spacing: 1.5px;
+}
+.container .Login_page .FAQ .box-group .box {
+  border: 1px solid #D6D6D6;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: white;
+}
+.container .Login_page .FAQ .box-group .box .box-1 {
+  border: 1px solid #D6D6D6;
+  padding: 30px 20px;
+  border-radius: 5px;
+  background-color: #F8F9FA;
+}
+.container .Login_page .FAQ .box-group .box .box-1 p {
+  font-size: 13px;
+  margin-bottom: 5px;
+  line-height: 20px;
+}
+.container .Login_page .FAQ .box-group .box .box-1 b {
+  font-size: 13px;
+  margin-bottom: 10px;
+  line-height: 20px;
+}
+.container .Login_page .FAQ .box-group .footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px;
+  gap: 10px;
+}
+.container .Login_page .FAQ .box-group .footer p {
+  font-size: 15px;
+}
+.container .Login_page .FAQ .box-group .footer a img {
+  width: 70px;
+  height: 35px;
+  border-radius: 5px;
+}
+.container .Login_page .Rules {
+  width: 100%;
+  display: none;
+  justify-content: center;
+  padding: 20px;
+  background-color: #F8F9FA;
+}
+.container .Login_page .Rules .box-group {
+  width: 1040px;
+}
+.container .Login_page .Rules .box-group .tittle {
+  margin-bottom: 15px;
+}
+.container .Login_page .Rules .box-group .tittle h2 {
+  font-size: 25px;
+  margin-bottom: 15px;
+  color: #0E1235;
+  letter-spacing: 1.5px;
+}
+.container .Login_page .Rules .box-group .box {
+  border: 1px solid #D6D6D6;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: white;
+}
+.container .Login_page .Rules .box-group .box .box-1 {
+  border: 1px solid #D6D6D6;
+  padding: 30px 20px;
+  border-radius: 5px;
+  background-color: #F8F9FA;
+}
+.container .Login_page .Rules .box-group .box .box-1 p {
+  font-size: 13px;
+  margin-bottom: 30px;
+  line-height: 20px;
+  margin-top: 20px;
+}
+.container .Login_page .Rules .box-group .box .box-1 b {
+  font-size: 13px;
+  line-height: 20px;
+}
+.container .Login_page .Rules .box-group .footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px;
+  gap: 10px;
+}
+.container .Login_page .Rules .box-group .footer p {
+  font-size: 15px;
+}
+.container .Login_page .Rules .box-group .footer a img {
+  width: 70px;
+  height: 35px;
+  border-radius: 5px;
+}
+.container .Login_page .COMPETITIONS {
+  width: 100%;
+  display: none;
+  justify-content: center;
+  padding: 20px;
+  background-color: #F8F9FA;
+}
+.container .Login_page .COMPETITIONS .box-group {
+  width: 1040px;
+}
+.container .Login_page .COMPETITIONS .box-group .tittle {
+  margin-bottom: 15px;
+}
+.container .Login_page .COMPETITIONS .box-group .tittle h2 {
+  font-size: 25px;
+  margin-bottom: 15px;
+  color: #0E1235;
+  letter-spacing: 1.5px;
+}
+.container .Login_page .COMPETITIONS .box-group .box {
+  border: 1px solid #D6D6D6;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: white;
+}
+.container .Login_page .COMPETITIONS .box-group .box .box-1 {
+  padding: 0px 20px;
+}
+.container .Login_page .COMPETITIONS .box-group .box .box-1 p {
+  font-size: 13px;
+  margin-bottom: 30px;
+  line-height: 20px;
+  margin-top: 20px;
+}
+.container .Login_page .COMPETITIONS .box-group .box .box-1 table {
+  border: 1px solid #F2F2F2;
+}
+.container .Login_page .COMPETITIONS .box-group .box .box-1 table tr {
+  display: flex;
+  border: 1px solid #F2F2F2;
+  padding: 3px;
+}
+.container .Login_page .COMPETITIONS .box-group .box .box-1 table tr .th-2 {
+  margin-left: 100px;
+  margin-right: 30px;
+}
+.container .Login_page .COMPETITIONS .box-group .box .box-1 table tr .td-2 {
+  margin-left: 220px;
+}
+.container .Login_page .COMPETITIONS .box-group .box .box-1 table .tr-1 {
+  background-color: #F2F2F2;
+  display: flex;
+}
+.container .Login_page .COMPETITIONS .box-group .footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px;
+  gap: 10px;
+}
+.container .Login_page .COMPETITIONS .box-group .footer p {
+  font-size: 15px;
+}
+.container .Login_page .COMPETITIONS .box-group .footer a img {
+  width: 70px;
+  height: 35px;
+  border-radius: 5px;
+}
+.container .Login_page .Contacts {
+  width: 100%;
+  display: none;
+  justify-content: center;
+  padding: 20px;
+  background-color: #F8F9FA;
+}
+.container .Login_page .Contacts .box-group {
+  width: 1040px;
+}
+.container .Login_page .Contacts .box-group .tittle {
+  margin-bottom: 15px;
+}
+.container .Login_page .Contacts .box-group .tittle h2 {
+  font-size: 25px;
+  margin-bottom: 15px;
+  color: #0E1235;
+  letter-spacing: 1.5px;
+}
+.container .Login_page .Contacts .box-group .box {
+  border: 1px solid #D6D6D6;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: white;
+}
+.container .Login_page .Contacts .box-group .box .box-1 {
+  padding: 0px 20px;
+  background-color: #FFECA1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .Login_page .Contacts .box-group .box .box-1 p {
+  font-size: 13px;
+  line-height: 25px;
+  text-align: center;
+}
+.container .Login_page .Contacts .box-group .box .box-1 b {
+  font-size: 15px;
+  line-height: 25px;
+}
+.container .Login_page .Contacts .box-group .box .box-1 table {
+  border: 1px solid #F2F2F2;
+}
+.container .Login_page .Contacts .box-group .box .box-1 table tr {
+  display: flex;
+  border: 1px solid #F2F2F2;
+  padding: 3px;
+}
+.container .Login_page .Contacts .box-group .box .box-1 table tr .th-2 {
+  margin-left: 100px;
+  margin-right: 30px;
+}
+.container .Login_page .Contacts .box-group .box .box-1 table tr .td-2 {
+  margin-left: 220px;
+}
+.container .Login_page .Contacts .box-group .box .box-1 table .tr-1 {
+  background-color: #F2F2F2;
+  display: flex;
+}
+.container .Login_page .Contacts .box-group .footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px;
+  gap: 10px;
+}
+.container .Login_page .Contacts .box-group .footer p {
+  font-size: 15px;
+}
+.container .Login_page .Contacts .box-group .footer a img {
+  width: 70px;
+  height: 35px;
+  border-radius: 5px;
+}
+.container .Login_page .Head {
+  width: 100%;
+  display: none;
+  justify-content: center;
+  padding: 20px;
+  background-color: #F8F9FA;
+}
+.container .Login_page .Head .box-group {
+  width: 1040px;
+}
+.container .Login_page .Head .box-group .tittle {
+  margin-bottom: 15px;
+}
+.container .Login_page .Head .box-group .tittle h2 {
+  font-size: 25px;
+  margin-bottom: 15px;
+  color: #0E1235;
+  letter-spacing: 1.5px;
+}
+.container .Login_page .Head .box-group .box {
+  border: 1px solid #D6D6D6;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: white;
+}
+.container .Login_page .Head .box-group .box .box-1 {
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.container .Login_page .Head .box-group .box .box-1 ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  flex-wrap: wrap;
+  gap: 5px;
+  border-radius: 20px;
+}
+.container .Login_page .Head .box-group .box .box-1 ul li {
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #01785F;
+  border-radius: 20px;
+  padding: 20px 10px;
+}
+.container .Login_page .Head .box-group .box .box-1 ul li i {
+  color: #FFCF01;
+  font-size: 20px;
+}
+.container .Login_page .Head .box-group .box .box-1 ul li h3 {
+  color: #FFFFF2;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+}
+.container .Login_page .Head .box-group .box .box-1 ul li:hover {
+  cursor: pointer;
+}
+.container .Login_page .Head .box-group .box .box-2 {
+  margin-bottom: 20px;
+}
+.container .Login_page .Head .box-group .box .box-2 ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.container .Login_page .Head .box-group .box .box-2 ul li {
+  width: 300px;
+  border-radius: 5px;
+  border: 1px solid #01785F;
+  padding: 10px 5px 5px 5px;
+  background-color: #C0E2D7;
+}
+.container .Login_page .Head .box-group .box .box-2 ul li h3 {
+  font-size: 15px;
+  text-align: center;
+}
+.container .Login_page .Head .box-group .box .box-2 ul li p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  text-align: center;
+}
+.container .Login_page .Head .box-group .box .box-2 ul li button {
+  padding: 10px 0px;
+  border: none;
+  border-radius: 2px;
+  width: 100%;
+  font-size: 15px;
+  font-weight: 700;
+  background-color: #01785F;
+  color: white;
+}
+.container .Login_page .Head .box-group .box .box-2 ul li button i {
+  font-size: 20px;
+  color: white;
+}
+.container .Login_page .Head .box-group .box .box-2 ul li button:hover {
+  cursor: pointer;
+}
+.container .Login_page .Head .box-group .box .profile .box {
+  border: 1px solid #D6D6D6;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.container .Login_page .Head .box-group .box .profile .box .box-1 {
+  width: 100%;
+  border: 1px solid #D6D6D6;
+  border-radius: 5px;
+  padding: 0px;
+}
+.container .Login_page .Head .box-group .box .profile .box .box-1 .tittle {
+  width: 100%;
+  padding: 10px;
+  border-bottom: 1px solid #D6D6D6;
+  background-color: #F7F7F7;
+}
+.container .Login_page .Head .box-group .box .profile .box .box-1 .tittle p {
+  font-size: 20px;
+  text-align: center;
+}
+.container .Login_page .Head .box-group .box .profile .box .box-1 .section {
+  padding: 20px 10px;
+}
+.container .Login_page .Head .box-group .box .profile .box .box-1 .section p {
+  line-height: 30px;
+}
+.container .Login_page .Head .box-group .box .deposits {
+  display: none;
+}
+.container .Login_page .Head .box-group .box .deposits .box-group {
+  width: 100%;
+  border: 1px solid #D6D6D6;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: white;
+}
+.container .Login_page .Head .box-group .box .deposits .box-group .tittle .p-1 {
+  width: 100%;
+  padding: 20px 30px;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  background-color: #C0E2D7;
+  color: #904124;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.container .Login_page .Head .box-group .box .deposits .box-group .tittle h2 {
+  text-align: center;
+  color: #01AF85;
+  font-size: 30px;
+  font-weight: 400;
+}
+.container .Login_page .Head .box-group .box .deposits .box-group .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  border: none;
+  border-radius: none;
+  flex-wrap: wrap;
+}
+.container .Login_page .Head .box-group .box .deposits .box-group .box .box-1 {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #C0E2D7;
+  border-radius: 3px;
+}
+.container .Login_page .Head .box-group .box .deposits .box-group .box .box-1 h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.container .Login_page .Head .box-group .box .deposits .box-group .box .box-1 img {
+  width: 150px;
+  margin-bottom: 10px;
+}
+.container .Login_page .Head .box-group .box .deposits .box-group .box .box-1 p {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+.container .Login_page .Head .box-group .box .deposits .box-group .box .box-1 b {
+  font-size: 15px;
+  margin-bottom: 5px;
+  color: red;
+}
+.container .Login_page .Head .box-group .box .deposits .box-group .box .box-1 h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: red;
+}
+.container .Login_page .Head .box-group .box .deposits .box-group .box .box-1 button {
+  padding: 5px 20px;
+  font-size: 15px;
+  color: white;
+  background-color: #01785F;
+  border: none;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+.container .Login_page .Head .box-group .box .deposits .box-group .box .box-1 button:hover {
+  background-color: green;
+  cursor: pointer;
+}
+.container .Login_page .Head .box-group .box .deposits .box-group .box .box-1 button:active {
+  box-shadow: 0px 0px 5px 5px green;
+}
+.container .Login_page .Head .box-group .box .collecting_profits {
+  display: none;
+}
+.container .Login_page .Head .box-group .box .collecting_profits .box-group {
+  width: 100%;
+  border: 1px solid #D6D6D6;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: white;
+}
+.container .Login_page .Head .box-group .box .collecting_profits .box-group .tittle {
+  background-color: #F8F9FA;
+  padding: 20px 0px;
+}
+.container .Login_page .Head .box-group .box .collecting_profits .box-group .tittle .p-1 {
+  text-align: center;
+}
+.container .Login_page .Head .box-group .box .collecting_profits .box-group .box {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 5px;
+  border: none;
+  border-radius: none;
+  flex-wrap: wrap;
+}
+.container .Login_page .Head .box-group .box .collecting_profits .box-group .box .box-1 {
+  width: 200px;
+  background-color: #FFECA1;
+  border: 1px solid #D6D6D6;
+  border-radius: 3px;
+  padding: 0px;
+}
+.container .Login_page .Head .box-group .box .collecting_profits .box-group .box .box-1 h3 {
+  width: 100%;
+  background-color: #F7E59C;
+  border-bottom: 1px solid #D6D6D6;
+  text-align: center;
+  padding: 10px 0px;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+.container .Login_page .Head .box-group .box .collecting_profits .box-group .box .box-1 img {
+  width: 100px;
+  margin-bottom: 15px;
+}
+.container .Login_page .Head .box-group .box .collecting_profits .box-group .box .box-1 p {
+  width: 100%;
+  text-align: center;
+  background-color: #FFC107;
+  font-size: 10px;
+}
+.container .Login_page .Head .box-group .box .collecting_profits .box-group .box .box-1 h4 {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  background-color: #F0DCA1;
+}
+.container .Login_page .Head .box-group .box .collecting_profits .box-group .box .box-1 button {
+  margin: 5px;
+  width: 100%;
+  padding: 20px;
+  font-size: 18px;
+  color: #834E35;
+  background-color: #C0E2D7;
+  border-radius: 5px;
+  border: none;
+}
+.container .Login_page .Head .box-group .box .collecting_profits .box-group .box .box-1 button:hover {
+  cursor: pointer;
+}
+.container .Login_page .Head .box-group .box .competitions {
+  width: 100%;
+  display: none;
+  justify-content: center;
+  padding: 20px;
+  background-color: #F8F9FA;
+}
+.container .Login_page .Head .box-group .box .competitions .box-group {
+  width: 100%;
+}
+.container .Login_page .Head .box-group .box .competitions .box-group .box {
+  border: 1px solid #D6D6D6;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: white;
+}
+.container .Login_page .Head .box-group .box .competitions .box-group .box .box-1 {
+  padding: 0px 20px;
+}
+.container .Login_page .Head .box-group .box .competitions .box-group .box .box-1 p {
+  text-align: center;
+  font-size: 13px;
+  margin-bottom: 30px;
+  line-height: 20px;
+  margin-top: 20px;
+}
+.container .Login_page .Head .box-group .box .competitions .box-group .box .box-1 table {
+  border: 1px solid #F2F2F2;
+}
+.container .Login_page .Head .box-group .box .competitions .box-group .box .box-1 table tr {
+  display: flex;
+  border: 1px solid #F2F2F2;
+  padding: 3px;
+}
+.container .Login_page .Head .box-group .box .competitions .box-group .box .box-1 table tr .th-2 {
+  margin-left: 100px;
+  margin-right: 30px;
+}
+.container .Login_page .Head .box-group .box .competitions .box-group .box .box-1 table tr .td-2 {
+  margin-left: 220px;
+}
+.container .Login_page .Head .box-group .box .competitions .box-group .box .box-1 table .tr-1 {
+  background-color: #F2F2F2;
+  display: flex;
+}
+.container .Login_page .Head .box-group .box .referral_exchange {
+  display: none;
+}
+.container .Login_page .Head .box-group .box .referral_exchange .box-group {
+  width: 100%;
+  border: 1px solid #D6D6D6;
+  padding: 20px;
+}
+.container .Login_page .Head .box-group .box .referral_exchange .box-group .tittle {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.container .Login_page .Head .box-group .box .referral_exchange .box-group .box {
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.container .Login_page .Head .box-group .box .referral_exchange .box-group .box .box-1 {
+  width: 290px;
+  border: 1px solid #D6D6D6;
+  padding: 20px;
+}
+.container .Login_page .Head .box-group .box .referral_exchange .box-group .box .box-1 h2 {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.container .Login_page .Head .box-group .box .referral_exchange .box-group .box .box-1 img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.container .Login_page .Head .box-group .box .referral_exchange .box-group .box .box-1 p {
+  font-size: 15px;
+  color: red;
+  margin-bottom: 10px;
+}
+.container .Login_page .Head .box-group .box .referral_exchange .box-group .box .box-1 b {
+  font-size: 20px;
+  color: red;
+  margin-bottom: 10px;
+}
+.container .Login_page .Head .box-group .box .referral_exchange .box-group .box .box-1 button {
+  padding: 5px 20px;
+  font-size: 15px;
+  color: white;
+  background-color: #01785F;
+  border: none;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+.container .Login_page .Head .box-group .box .referral_exchange .box-group .box .box-1 button:hover {
+  background-color: green;
+  cursor: pointer;
+}
+.container .Login_page .Head .box-group .box .referral_exchange .box-group .box .box-1 button:active {
+  box-shadow: 0px 0px 5px 5px green;
+}
+.container .Login_page .Head .box-group .box .account_settings {
+  display: none;
+}
+.container .Login_page .Head .box-group .box .account_settings .box-group {
+  width: 100%;
+  width: 100%;
+  border: 1px solid #D6D6D6;
+  padding: 20px;
+}
+.container .Login_page .Head .box-group .box .account_settings .box-group .box {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+.container .Login_page .Head .box-group .box .account_settings .box-group .box .p-1 {
+  display: none;
+  width: 100%;
+  padding: 20px 30px;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  background-color: #C0E2D7;
+  color: #904124;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.container .Login_page .Head .box-group .box .account_settings .box-group .box .p-2 {
+  display: none;
+  width: 100%;
+  padding: 20px 30px;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  background-color: #C0E2D7;
+  color: #904124;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.container .Login_page .Head .box-group .box .account_settings .box-group .box .box-1 {
+  border: 1px solid #D6D6D6;
+  border-radius: 5px;
+  padding: 0px;
+  padding-bottom: 20px;
+}
+.container .Login_page .Head .box-group .box .account_settings .box-group .box .box-1 h2 {
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  background-color: #F7F7F7;
+}
+.container .Login_page .Head .box-group .box .account_settings .box-group .box .box-1 .input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.container .Login_page .Head .box-group .box .account_settings .box-group .box .box-1 .input input {
+  margin: 5px 10px;
+  width: 300px;
+  color: #49508D;
+  font-size: 15px;
+  padding: 5px 10px;
+  border: 1px solid #D6D6D6;
+  border-radius: 5px;
+  outline: none;
+}
+.container .Login_page .Head .box-group .box .account_settings .box-group .box .box-1 .input input:active {
+  box-shadow: 0px 0px 3px 3px rgb(0, 183, 255);
+}
+.container .Login_page .Head .box-group .box .account_settings .box-group .box .box-1 button {
+  margin-top: 10px;
+  padding: 5px 20px;
+  font-size: 15px;
+  color: white;
+  background-color: #01785F;
+  border: none;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+.container .Login_page .Head .box-group .box .account_settings .box-group .box .box-1 button:hover {
+  background-color: green;
+  cursor: pointer;
+}
+.container .Login_page .Head .box-group .box .account_settings .box-group .box .box-1 button:active {
+  box-shadow: 0px 0px 5px 5px green;
+}
+.container .Login_page .Head .box-group .box .balans {
+  display: none;
+}
+.container .Login_page .Head .box-group .box .balans .box-group {
+  width: 100%;
+  width: 100%;
+  border: 1px solid #D6D6D6;
+  padding: 20px;
+}
+.container .Login_page .Head .box-group .box .balans .box-group .box {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .Login_page .Head .box-group .box .balans .box-group .box h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #0E125B;
+}
+.container .Login_page .Head .box-group .box .balans .box-group .box .tittle {
+  width: 100%;
+  padding: 10px;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+.container .Login_page .Head .box-group .box .balans .box-group .box .tittle h2 {
+  text-align: center;
+  font-size: 25px;
+  letter-spacing: 5px;
+  color: red;
+}
+.container .Login_page .Head .box-group .box .balans .box-group .box .tittle h2 b {
+  font-size: 25px;
+  letter-spacing: 5px;
+  background-color: #019274;
+  color: white;
+  padding: 0px 5px;
+  border-radius: 5px;
+}
+.container .Login_page .Head .box-group .box .balans .box-group .box .tittle p {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+}
+.container .Login_page .Head .box-group .box .balans .box-group .box .box-1 {
+  display: flex;
+  margin: 40px 0px;
+  justify-content: center;
+}
+.container .Login_page .Head .box-group .box .balans .box-group .box .box-1 button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background: none;
+  box-shadow: 0px 0px 5px 5px #D8D8D8;
+}
+.container .Login_page .Head .box-group .box .balans .box-group .box .box-1 button img {
+  width: 120px;
+  height: 70px;
+}
+.container .Login_page .Head .box-group .box .balans .box-group .box .box-1 button:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 5px 5px #979797;
+}
+.container .Login_page .Head .box-group .box .balans .box-group .box .box-1 button:active {
+  box-shadow: 0px 0px 5px 5px gray;
+}
+.container .Login_page .Head .box-group .box .payeer_rub {
+  display: none;
+}
+.container .Login_page .Head .box-group .box .payeer_rub .box-group {
+  width: 100%;
+}
+.container .Login_page .Head .box-group .box .payeer_rub .box-group .box {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .Login_page .Head .box-group .box .payeer_rub .box-group .box .tittle {
+  width: 100%;
+  text-align: center;
+  background-color: #F4F4F4;
+  margin-bottom: 30px;
+  padding: 20px 0px;
+}
+.container .Login_page .Head .box-group .box .payeer_rub .box-group .box .tittle p {
+  font-size: 18px;
+}
+.container .Login_page .Head .box-group .box .payeer_rub .box-group .box .tittle p b {
+  font-size: 18px;
+}
+.container .Login_page .Head .box-group .box .payeer_rub .box-group .box .box-1 h3 {
+  font-size: 20px;
+  font-weight: 400;
+}
+.container .Login_page .Head .box-group .box .payeer_rub .box-group .box .box-1 h3 a {
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: 5px;
+  color: #019374;
+}
+.container .Login_page .Head .box-group .box .payeer_rub .box-group .box .box-1 h2 {
+  color: red;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  letter-spacing: 5px;
+}
+.container .Login_page .Head .box-group .box .payeer_rub .box-group .box .box-1 p {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.container .Login_page .Head .box-group .box .payeer_rub .box-group .box .box-1 .input {
+  padding: 20px 0px;
+  border-bottom: 1px solid #D6D6D6;
+}
+.container .Login_page .Head .box-group .box .payeer_rub .box-group .box .box-1 .input input {
+  width: 300px;
+  color: #49508D;
+  font-size: 15px;
+  padding: 5px 10px;
+  border: 1px solid #D6D6D6;
+  border-radius: 5px;
+  outline: none;
+}
+.container .Login_page .Head .box-group .box .payeer_rub .box-group .box .box-1 input:active {
+  box-shadow: 0px 0px 3px 3px rgb(0, 183, 255);
+}
+.container .Login_page .Head .box-group .box .payeer_rub .box-group .box .box-1 .p-1 {
+  display: none;
+  width: 100%;
+  padding: 20px 30px;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  background-color: #C0E2D7;
+  color: #904124;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.container .Login_page .Head .box-group .box .payeer_rub .box-group .box .box-1 button {
+  margin-top: 10px;
+  padding: 5px 20px;
+  font-size: 15px;
+  color: white;
+  background-color: #01785F;
+  border: none;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+.container .Login_page .Head .box-group .box .payeer_rub .box-group .box .box-1 button:hover {
+  background-color: green;
+  cursor: pointer;
+}
+.container .Login_page .Head .box-group .box .payeer_rub .box-group .box .box-1 button:active {
+  box-shadow: 0px 0px 5px 5px green;
+}
+.container .Login_page .Head .box-group .box .time {
+  display: none;
+}
+.container .Login_page .Head .box-group .box .time .box-group {
+  width: 100%;
+}
+.container .Login_page .Head .box-group .box .time .box-group .box {
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .Login_page .Head .box-group .box .time .box-group .box .box-1 {
+  margin: 50px 0px;
+}
+.container .Login_page .Head .box-group .box .time .box-group .box .box-1 h2 {
+  font-size: 40px;
+  letter-spacing: 20px;
+  color: green;
+}
+.container .Login_page .Head .box-group .footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px;
+  gap: 10px;
+}
+.container .Login_page .Head .box-group .footer p {
+  font-size: 15px;
+}
+.container .Login_page .Head .box-group .footer a img {
+  width: 70px;
+  height: 35px;
+  border-radius: 5px;
+}
+
+@media (min-width: 900px) and (max-width: 1200px) {
+  .container .Login_page header .box .box-1 {
+    gap: 100px;
+  }
+  .container .Login_page header .box .box-1 img {
+    width: 180px;
+    height: 65px;
+  }
+  .container .Login_page header .box .box-1 ul {
+    gap: 20px;
+  }
+  .container .Login_page .account .box-group {
+    width: 900px;
+  }
+  .container .Login_page .account .box-group .box .input input {
+    width: 300px;
+  }
+  .container .Login_page .account .box-group .box .input p {
+    width: 270px;
+  }
+  .container .Login_page .account .box-group .footer a img {
+    width: 70px;
+    height: 35px;
+  }
+  .container .Login_page .go_out .box-group {
+    width: 900px;
+  }
+  .container .Login_page .go_out .box-group .box .input input {
+    width: 300px;
+  }
+  .container .Login_page .go_out .box-group .footer a img {
+    width: 70px;
+    height: 35px;
+  }
+  .container .Login_page .about_us .box_group {
+    width: 900px;
+  }
+  .container .Login_page .about_us .box_group .footer a img {
+    width: 70px;
+    height: 35px;
+  }
+  .container .Login_page .FAQ .box-group {
+    width: 900px;
+  }
+  .container .Login_page .FAQ .box-group .footer a img {
+    width: 70px;
+    height: 35px;
+  }
+  .container .Login_page .Rules .box_group {
+    width: 900px;
+  }
+  .container .Login_page .Rules .box_group .footer a img {
+    width: 70px;
+    height: 35px;
+  }
+  .container .Login_page .COMPETITIONS .box-group {
+    width: 900px;
+  }
+  .container .Login_page .COMPETITIONS .box-group .footer a img {
+    width: 70px;
+    height: 35px;
+  }
+  .container .Login_page .Contacts .box-group {
+    width: 900px;
+  }
+  .container .Login_page .Contacts .box-group .footer a img {
+    width: 70px;
+    height: 35px;
+  }
+  .container .Login_page .Head .box-group {
+    width: 900px;
+  }
+  .container .Login_page .Head .box-group .box .deposits .box-group .box .box-1 {
+    width: 300px;
+  }
+  .container .Login_page .Head .box-group .box .deposits .box-group .box .box-1 img {
+    width: 150px;
+  }
+  .container .Login_page .Head .box-group .box .collecting_profits .box-group .box .box-1 {
+    width: 200px;
+  }
+  .container .Login_page .Head .box-group .box .collecting_profits .box-group .box .box-1 img {
+    width: 100px;
+  }
+  .container .Login_page .Head .box-group .box .referal_exchange .box-group .box .box-1 {
+    width: 290px;
+  }
+  .container .Login_page .Head .box-group .box .payeer_rub .box-group .box .box-1 .input input {
+    width: 300px;
+  }
+  .container .Login_page .Head .box-group .footer a img {
+    width: 70px;
+    height: 35px;
+  }
+}
+@media (min-width: 500px) and (max-width: 899px) {
+  .container .Login_page header .box .box-1 {
+    justify-content: space-around;
+  }
+  .container .Login_page header .box .box-1 .ul-1 {
+    display: none;
+  }
+  .container .Login_page header .box .box-1 #i-1 {
+    display: block;
+  }
+  .container .Login_page header .box .box-1 img {
+    width: 180px;
+    height: 65px;
+  }
+  .container .Login_page header .box .box-1 ul {
+    gap: 20px;
+  }
+  .container .Login_page .account .box-group {
+    width: 400px;
+  }
+  .container .Login_page .account .box-group .box .input input {
+    width: 300px;
+  }
+  .container .Login_page .account .box-group .box .input p {
+    width: 270px;
+  }
+  .container .Login_page .account .box-group .footer a img {
+    width: 70px;
+    height: 35px;
+  }
+  .container .Login_page .go_out .box-group {
+    width: 400px;
+  }
+  .container .Login_page .go_out .box-group .box .input input {
+    width: 300px;
+  }
+  .container .Login_page .go_out .box-group .footer a img {
+    width: 70px;
+    height: 35px;
+  }
+  .container .Login_page .about_us .box_group {
+    width: 400px;
+  }
+  .container .Login_page .about_us .box_group .footer a img {
+    width: 70px;
+    height: 35px;
+  }
+  .container .Login_page .FAQ .box-group {
+    width: 400px;
+  }
+  .container .Login_page .FAQ .box-group .footer a img {
+    width: 70px;
+    height: 35px;
+  }
+  .container .Login_page .Rules .box_group {
+    width: 400px;
+  }
+  .container .Login_page .Rules .box_group .footer a img {
+    width: 70px;
+    height: 35px;
+  }
+  .container .Login_page .COMPETITIONS .box-group {
+    width: 400px;
+  }
+  .container .Login_page .COMPETITIONS .box-group .footer a img {
+    width: 70px;
+    height: 35px;
+  }
+  .container .Login_page .Contacts .box-group {
+    width: 400px;
+  }
+  .container .Login_page .Contacts .box-group .footer a img {
+    width: 70px;
+    height: 35px;
+  }
+  .container .Login_page .Head .box-group {
+    width: 400px;
+  }
+  .container .Login_page .Head .box-group .box .deposits .box-group .box .box-1 {
+    width: 300px;
+  }
+  .container .Login_page .Head .box-group .box .deposits .box-group .box .box-1 img {
+    width: 150px;
+  }
+  .container .Login_page .Head .box-group .box .collecting_profits .box-group .box .box-1 {
+    width: 200px;
+  }
+  .container .Login_page .Head .box-group .box .collecting_profits .box-group .box .box-1 img {
+    width: 100px;
+  }
+  .container .Login_page .Head .box-group .box .referal_exchange .box-group .box .box-1 {
+    width: 290px;
+  }
+  .container .Login_page .Head .box-group .box .payeer_rub .box-group .box .box-1 .input input {
+    width: 300px;
+  }
+  .container .Login_page .Head .box-group .footer a img {
+    width: 70px;
+    height: 35px;
+  }
+}
+@media (min-width: 250px) and (max-width: 499px) {
+  .container .Login_page header .box .box-1 {
+    justify-content: space-between;
+    gap: 0px;
+  }
+  .container .Login_page header .box .box-1 .ul-1 {
+    display: none;
+  }
+  .container .Login_page header .box .box-1 #i-1 {
+    display: block;
+  }
+  .container .Login_page header .box .box-1 img {
+    width: 80px;
+    height: 35px;
+  }
+  .container .Login_page header .box .box-1 ul {
+    gap: 20px;
+  }
+  .container .Login_page .account {
+    padding: 15px 10px;
+  }
+  .container .Login_page .account .box-group {
+    width: 100%;
+  }
+  .container .Login_page .account .box-group .box {
+    padding: 10px 10px;
+  }
+  .container .Login_page .account .box-group .box .input input {
+    width: 100%;
+  }
+  .container .Login_page .account .box-group .box .input p {
+    width: 100%;
+  }
+  .container .Login_page .account .box-group .footer a img {
+    width: 70px;
+    height: 35px;
+  }
+  .container .Login_page .go_out {
+    padding: 15px 10px;
+  }
+  .container .Login_page .go_out .box-group {
+    width: 100%;
+  }
+  .container .Login_page .go_out .box-group .box {
+    padding: 20px 0px;
+  }
+  .container .Login_page .go_out .box-group .box .input input {
+    width: 100%;
+  }
+  .container .Login_page .go_out .box-group .footer a img {
+    width: 70px;
+    height: 35px;
+  }
+  .container .Login_page .about_us .box_group {
+    width: 100%;
+    padding: 15px 0px;
+  }
+  .container .Login_page .about_us .box_group .footer a img {
+    width: 70px;
+    height: 35px;
+  }
+  .container .Login_page .FAQ {
+    padding: 15px 10px;
+  }
+  .container .Login_page .FAQ .box-group {
+    width: 100%;
+  }
+  .container .Login_page .FAQ .box-group .footer a img {
+    width: 70px;
+    height: 35px;
+  }
+  .container .Login_page .Rules {
+    padding: 20px 10px;
+  }
+  .container .Login_page .Rules .box_group {
+    width: 100%;
+  }
+  .container .Login_page .Rules .box_group .footer a img {
+    width: 70px;
+    height: 35px;
+  }
+  .container .Login_page .COMPETITIONS {
+    padding: 20px 10px;
+  }
+  .container .Login_page .COMPETITIONS .box-group {
+    width: 100%;
+  }
+  .container .Login_page .COMPETITIONS .box-group .footer a img {
+    width: 70px;
+    height: 35px;
+  }
+  .container .Login_page .Contacts {
+    padding: 20px 10px;
+  }
+  .container .Login_page .Contacts .box-group {
+    width: 100%;
+  }
+  .container .Login_page .Contacts .box-group .footer a img {
+    width: 70px;
+    height: 35px;
+  }
+  .container .Login_page .Head {
+    padding: 20px 10px;
+  }
+  .container .Login_page .Head .box-group {
+    width: 100%;
+  }
+  .container .Login_page .Head .box-group .box {
+    padding: 5px;
+  }
+  .container .Login_page .Head .box-group .box .deposits .box-group .box .box-1 {
+    width: 150px;
+  }
+  .container .Login_page .Head .box-group .box .deposits .box-group .box .box-1 img {
+    width: 150px;
+  }
+  .container .Login_page .Head .box-group .box .collecting_profits .box-group .box .box-1 {
+    width: 200px;
+  }
+  .container .Login_page .Head .box-group .box .collecting_profits .box-group .box .box-1 img {
+    width: 100px;
+  }
+  .container .Login_page .Head .box-group .box .competitions .box-group .box {
+    padding: 20px 10px;
+  }
+  .container .Login_page .Head .box-group .box .competitions .box-group .box .box-1 {
+    padding: 0px 10px;
+  }
+  .container .Login_page .Head .box-group .box .competitions .box-group .box .box-1 table {
+    width: 100%;
+  }
+  .container .Login_page .Head .box-group .box .competitions .box-group .box .box-1 table tr {
+    display: flex;
+    justify-content: space-around;
+  }
+  .container .Login_page .Head .box-group .box .competitions .box-group .box .box-1 table tr .th-2 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .container .Login_page .Head .box-group .box .competitions .box-group .box .box-1 table tr .td-2 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .container .Login_page .Head .box-group .box .referal_exchange .box-group .box .box-1 {
+    width: 160px;
+  }
+  .container .Login_page .Head .box-group .box .payeer_rub .box-group .box .box-1 .input input {
+    width: 100%;
+  }
+  .container .Login_page .Head .box-group .time .box-group .box .box-1 h2 {
+    text-align: center;
+  }
+  .container .Login_page .Head .box-group .footer a img {
+    width: 70px;
+    height: 35px;
+  }
+}/*# sourceMappingURL=style.css.map */
