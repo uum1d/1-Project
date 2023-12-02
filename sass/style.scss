@@ -2061,7 +2061,7 @@
             header {
                 .box {
                     .box-1 {
-                        justify-content:space-between;
+                        justify-content:space-around;
                         gap: 0px;
                         .ul-1{
                             display: none;
@@ -2188,6 +2188,27 @@
                 padding: 20px 10px;
                 .box-group {
                     width: 100%;
+                    .box{
+                        .box-1{
+                            table{
+                                width: 100%;
+                                tr{
+                                    display: flex;
+                                    justify-content: space-around;
+                                    .th-2{
+                                        margin-left:0px;
+                                        margin-right: 0px;
+                                    }
+                                   
+                                    .td-2{
+                                        margin-left:0px;
+                                        margin-right: 0px; 
+                                    }
+                                }
+                               
+                            }
+                        }
+                    }
 
                     .footer {
                         a {
@@ -2223,6 +2244,23 @@
 
                     .box {
                         padding: 5px;
+                        .profile{
+                            .box{
+                                .box-1{
+                                   
+                                    .section{
+                                        p{
+                                            display: flex;
+                                            flex-direction: column;
+                                            justify-content: center;
+                                            align-items: center;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+
                         .deposits {
                             .box-group {
                                 .box {

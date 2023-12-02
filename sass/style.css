@@ -1519,7 +1519,7 @@
 }
 @media (min-width: 250px) and (max-width: 499px) {
   .container .Login_page header .box .box-1 {
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 0px;
   }
   .container .Login_page header .box .box-1 .ul-1 {
@@ -1604,6 +1604,21 @@
   .container .Login_page .COMPETITIONS .box-group {
     width: 100%;
   }
+  .container .Login_page .COMPETITIONS .box-group .box .box-1 table {
+    width: 100%;
+  }
+  .container .Login_page .COMPETITIONS .box-group .box .box-1 table tr {
+    display: flex;
+    justify-content: space-around;
+  }
+  .container .Login_page .COMPETITIONS .box-group .box .box-1 table tr .th-2 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .container .Login_page .COMPETITIONS .box-group .box .box-1 table tr .td-2 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
   .container .Login_page .COMPETITIONS .box-group .footer a img {
     width: 70px;
     height: 35px;
@@ -1626,6 +1641,12 @@
   }
   .container .Login_page .Head .box-group .box {
     padding: 5px;
+  }
+  .container .Login_page .Head .box-group .box .profile .box .box-1 .section p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .container .Login_page .Head .box-group .box .deposits .box-group .box .box-1 {
     width: 150px;
